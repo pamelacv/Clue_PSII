@@ -1,0 +1,249 @@
+html {
+    font-family: Calibri;
+    font-size: 16px;
+    color: #696969;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.geral {
+    height: 100%;
+}
+
+.geral-body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.fillLayout {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%
+}
+
+.div-conteudo {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.banner-name {
+    font-family: Bernard MT Condensed;
+    font-size: 30px;
+    float: left;
+    position: absolute;
+    color: white;
+    margin: 20px 0 0 20px;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100px;
+    background-color: #00CED1
+}
+
+#pagina_geral {
+    margin: 0px !important;
+    border: none;
+}
+
+#frame_paginas {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: auto;
+}
+
+/*.obj-body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.obj-pagina {
+    width: 100%;
+    height: 100%;
+}*/
+
+.container-menu-bar {
+    max-height: 60px;
+    min-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #00CED1;
+}
+
+    .container-menu-bar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .container-menu-bar li {
+        float: left;
+        flex: 1;
+    }
+
+        .container-menu-bar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            text-decoration: none;
+            cursor: default;
+        }
+
+            .container-menu-bar li a:hover {
+                background-color: #008B8B;
+            }
+
+.container-listas {
+    max-height: 60px;
+    min-height: 60px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #696969;
+}
+
+    .container-listas ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .container-listas li {
+        float: left;
+        flex: 1;
+    }
+
+        .container-listas li a {
+            display: block;
+            color: #696969;
+            text-align: center;
+            padding: 18px;
+            text-decoration: none;
+            cursor: default;
+        }
+
+            .container-listas li a:hover {
+                background-color: #f2f2f3;
+            }
+
+.box-container {
+    width: 300px;
+    height: 50px;
+    float: left;
+    min-height: 10px;
+    padding-bottom: 200px;
+    padding-right: 80px;
+    padding-top: 30px;
+    -webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1;
+}
+
+.box-container-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    /*border: thin;
+    border-color: gray;
+    border-style: solid;*/
+}
+
+.box-container-descricao {
+    width: 100%;
+    height: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.box-container-descricao-titulo {
+    font-weight: bold;
+}
+
+.box-container-descricao-texto {
+    height: 50px;
+    font-size: 14px;
+}
+
+.box-container-botao {
+    position: relative;
+    margin-left: 80%;
+    margin-top: -12%;
+}
+
+.box-container-botao-add {
+    width: 130px;
+    height: 30px;
+    background-color: #00CED1;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+    .box-container-botao-add:hover {
+        width: 130px;
+        height: 30px;
+        background-color: #008B8B;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+
+.box-login {
+    width: 500px;
+    height: 100%;
+    float: left;
+    min-height: 1px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 10%;
+    padding-top: 20px;
+    -webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1;
+}
+
+.box-login-botao-add {
+    width: 135px;
+    height: 35px;
+    background-color: #00CED1;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+    .box-login-botao-add:hover {
+        width: 135px;
+        height: 35px;
+        background-color: #008B8B;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+
+/*.mainPanel {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.01em 16px;
+}
+
+.mainPanel {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}*/
+
+/*#inner {
+    display: table;
+    margin: 0 auto;
+    padding-left: 30px;
+}*/
